@@ -1,15 +1,23 @@
-/* /pages/index.js */
-import { Button, Alert } from "reactstrap";
-import Layout from "../components/Layout";
-export default () => {
-  return (
+import Layout from "../components/layout";
+
+
+
+const Index = () => (
+
     <Layout>
-      <div>
-        <Alert color="primary">
-          Hello Project is strapi-next with Bootstrap
-        </Alert>
-        &nbsp; <Button color="primary">Hello from nextjs</Button>
-      </div>
+        <div>
+            <h1>
+                Welcome to Mismatch Media
+            </h1>
+
+            <p>
+                The future of entertainment
+            </p>
+
+        </div>
     </Layout>
-  );
-};
+
+
+);
+    
+export default Index;
