@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "trying out next",
   "main": "index.js",
+  "engines": {
+    "node": "10.16.2"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -18,4 +21,5 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
+  
 }
