@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "next",
-    "prestart": "next build",
+    "prebuild": "next build",
     "start": "next start -p $PORT",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
