@@ -14,7 +14,7 @@ const Layout = (props) => (
             />
         </Head>
         <Navbar/>
-        <div className = "container">
+        <div>
         {props.children}
         </div>
 

@@ -10,7 +10,7 @@ const Index = () => (
                 Welcome to Mismatch Media
             </h1>
 
-            <p>
+            <p class="text-primary" >
                 The future of entertainment
             </p>
 

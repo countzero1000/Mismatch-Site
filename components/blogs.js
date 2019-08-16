@@ -5,7 +5,7 @@ class Blogs extends React.Component {
 
     renderArticle(post){
 
-        console.log(post.fields.title,"here");
+        
         return (<Article content = {post.fields.content}
                          title = {post.fields.title}/>
                          );
@@ -14,11 +14,11 @@ class Blogs extends React.Component {
 
     render(){
         return(
-        <ul>
+        <div>
             {this.props.posts.map(key =>(
-                <li>{this.renderArticle(key)}</li>
+                <div>{this.renderArticle(key)}</div>
             ))}
-        </ul>
+        </div>
         );
     }
     

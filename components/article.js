@@ -6,14 +6,15 @@ class Article extends React.Component {
     render(){
         return(
         
-        <div>
-            <a>{this.props.title}</a>
-            <div> 
+        <div class= "card border-primary mb-3" >
+            <div class = "card-header">{this.props.title}</div>
+
+            <div class = "card-body"> 
             {renderHTML(
                 documentToHtmlString(this.props.content))
-            }
-                
+            }       
             </div>
+
         </div>
 
         );
